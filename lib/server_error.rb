@@ -3,7 +3,7 @@ require 'rack/request'
 require 'rack/response'
 require 'json'
 
-module ServerError
+class ServerError
   def initialize app
     @app = app
   end
